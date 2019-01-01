@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.manojmurali.task.Assignment"
+    tools:showIn="@layout/activity_assignment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/project_text"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="top"
+
+            android:layout_marginBottom="30dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:paddingTop="40dp"
+            android:tooltipText=""
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/project_text"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="28dp">
+
+        </Spinner>
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
